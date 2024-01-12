@@ -41,7 +41,7 @@ function getBlockBelow()
 
     valid_block_below, block_data = turtle.inspectDown()
 
-    return block_data
+    return block_data.name
 end
 
 function searchForFuel()
