@@ -1,9 +1,9 @@
-#Chunk Miner
+# Chunk Miner
 A Minecraft turtle for Minecraft ComputerCraft Minecraft mod to do mine for me... in Minecraft<br />
-Coded in Lua because that's the language CC uses. ¯\_(ツ)_/¯
+Coded in Lua because that's the language CC uses. ¯\\_(ツ)_/¯
 <br />
 <br />
-###Directions:<br />
+### Directions:<br />
 The turtle's position in respect to the chunk will determine its orientation.<br />
 For the following corners:<br />
 <br />
@@ -16,7 +16,7 @@ SE, turtle faces EAST<br />
 player), facing forward.<br />
 <br />
 <br />
-###Process:<br />
+### Process:<br />
 Starting on the corner its placed, it digs out the block below it before digging out blocks below <br />
 it in a straight line ahead of it; digging out a "lane". Once it reaches the opposite edge of the <br />
 chunk, it goes to the next lane to the right, digging it out. Timothee continues this in a snake-<br />
